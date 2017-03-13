@@ -1,0 +1,162 @@
+ *{
+	font-family: 'Slabo 27px', sans-serif;
+	color: #000000;
+}
+
+.aaa h1,h2,h2>b,h3,h4{
+	color: #fff;
+}
+#hero{
+	background-image: url("../assets/backgrounds/landing.jpg");
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#happyHour{
+	background-color: #EBE7E7;
+	padding: 17.5px;
+	text-align: center;
+	color: #000000;
+}
+
+#partyTime{
+	background-color: #F55118;
+	padding: 17.5px;
+	text-align: center;
+}
+
+#breakfast{
+	background-image: url(../assets/foodtop/breakfast.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#lunch{
+	background-image: url(../assets/foodtop/lunch.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#dinner{
+	background-image: url(../assets/foodtop/dinner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#breakfast,#lunch,#dinner h3{
+	text-align:center;
+	padding-top: 70px;
+	padding-bottom: 70px; 
+}
+
+#box-shadow{
+	box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.4);
+	padding: 1.6em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gallery{
+	text-decoration: none;
+	background-color: #fff;
+	border-style: solid;
+	border-color: #F15A29;
+}
+
+.btn{
+	width: 100px;
+	color: #F15A29; 
+}
+
+#slideshow{
+	background-image: url("../assets/backgrounds/foodsBg.jpg");
+	height: 600px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+ul>li>h2>a{
+	color: darkcyan;
+	text-decoration: none;
+}
+ul>li>h2>a:hover{
+	text-decoration: none;
+}
+ul>li>h2>a:visited{
+	text-decoration: none;
+	color: darkcyan;
+}
+
+#food h4{
+	color: #F15A29;
+	font-weight: 500;
+}
+
+#testimonials{
+	background-color: #fff;
+	width: 100%;
+}
+#testimonials h2{
+	color: #F15A29;
+}
+
+#testimonials p{
+	font-size: 16px;
+	color: inherit;
+}
+
+#box2{
+	box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.4);
+	margin-bottom: 5%;
+
+}
+.bbb h2{
+	color: inherit;
+}
+#subscribe{
+	background-image: url("../assets/backgrounds/subscribe.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#subscribe h2{
+	color: #fff;
+}
+
+#subform input[type=email]{
+	background-color: rgba(255,255,255,0.2);
+	height: 40px;
+}
+input[type="email"]::-webkit-input-placeholder {
+  color: #fff;
+  font-weight: 400;
+  font-family: Open Sans;
+  font-size: 16px;
+}
+
+#subform button{
+	width: 100%;
+	background-color: #F15A29;
+	color: #fff;
+	height: 40px;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: Open Sans;
+}
+
+#footer{
+	background-color: #F15A29;
+	color: white;
+}
+
+#footer h1,h2,p{
+	color: #fff;
+}
+.icons{
+	margin-bottom: 10%;
+}
+.icons li>img{
+	background-color: transparent;
+
+}
